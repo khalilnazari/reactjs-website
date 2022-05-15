@@ -1,23 +1,12 @@
+import React from 'react'
+import {Article} from './components'
 
-import './App.css';
-import Header from'./components/header/header'
-import Footer from './components/footer/footer'
-import Home from './components/home/home';
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      {/* header */}
-      <Header />
-
-
-      <Home />
-      {/* footer */}
-      <Footer />
-
-      {/* https://wptf.themepul.com/restly/ */}
+    <div>
+      <Article />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
